@@ -9,43 +9,43 @@ Database file #1: ./references.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 You've used 1 entry,
             3101 wiz_defined-function locations,
-            668 strings with 5292 characters,
-and the built_in function-call counts, 639 in all, are:
-= -- 60
-> -- 17
-< -- 1
-+ -- 6
-- -- 6
-* -- 35
-:= -- 89
-add.period$ -- 5
+            667 strings with 5184 characters,
+and the built_in function-call counts, 340 in all, are:
+= -- 25
+> -- 7
+< -- 0
++ -- 2
+- -- 2
+* -- 14
+:= -- 53
+add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 7
+change.case$ -- 5
 chr.to.int$ -- 1
 cite$ -- 1
-duplicate$ -- 34
-empty$ -- 54
-format.name$ -- 11
-if$ -- 147
+duplicate$ -- 17
+empty$ -- 35
+format.name$ -- 5
+if$ -- 72
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
+missing$ -- 0
 newline$ -- 8
 num.names$ -- 2
 pop$ -- 15
 preamble$ -- 1
-purify$ -- 8
+purify$ -- 6
 quote$ -- 0
-skip$ -- 32
+skip$ -- 20
 stack$ -- 0
-substring$ -- 39
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 7
+swap$ -- 1
+text.length$ -- 0
 text.prefix$ -- 2
 top$ -- 0
 type$ -- 8
 warning$ -- 0
-while$ -- 5
+while$ -- 2
 width$ -- 2
-write$ -- 16
-is.kanji.str$ -- 13
+write$ -- 14
+is.kanji.str$ -- 8
