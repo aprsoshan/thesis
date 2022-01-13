@@ -13,3 +13,6 @@ main.dvi: *.tex
 
 clean:
 	rm -f *.aux *.log *.dvi *.bbl *.blg *.ilg *.idx *.toc *.ind tmp.*
+
+cleanpdf:
+	rm -f *.pdf
