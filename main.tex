@@ -10,6 +10,11 @@
 \usepackage{amssymb}
 \usepackage[dvipdfmx]{graphicx} %dvipdfmxはjpgやpngの張り込みのために使用
 
+%図を並べるために追加
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\captionsetup{compatibility=false}
+
 \makeindex
 
 \pagenumbering{roman}
@@ -56,8 +61,7 @@ Chiba Institute of Technology}
 \pagenumbering{arabic}
 
 \include{introduction}
-%\include{purpose}
-%\include{method}
+\include{method}
 %\include{conclusion}
 
 \appendix
