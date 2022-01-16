@@ -1,0 +1,42 @@
+\chapter{実験}\label{chap:experiment}
+
+
+\section{開発環境}
+
+本研究の実験は、\ref{chap:method}で上げた手法を取り入れたアプリケーションを用いて行った。
+表\ref{開発環境}に開発環境を示す。
+
+\begin{table}[H]
+\centering
+  \caption{開発環境}
+  \label{開発環境}
+  \begin{tabular}{|l|l|}  \hline
+   ロボット & Turtlebot3 burger \\ \hline
+   OS & Ubuntu 18.04 \\ \hline
+   ROS Version & melodic \\ \hline
+   開発ソフト & Unity　2020.3.16f \\ \hline
+   AR端末(スマートフォン) & Galaxy S10+ \\ \hline
+   開発ソフト & Unity 2020.3.16f \\ \hline
+  \end{tabular}
+\end{table}
+
+
+\section{実験内容}
+
+
+\subsection{実験1}
+
+実験1では、表示されている内部情報が更新されているか確認する。
+そのために、ロボットを移動させ、センサーデータが更新されるか確認する。
+
+
+\subsection{実験2}
+
+実験2では、マーカーレスで端末のトラッキングが行えているかの確認をする。
+そのために、端末を別地点移動して、センサーデータの確認を行う。
+
+
+\subsection{実験3}
+
+実験3では、アプリケーションに表示された現実空間の画像とマップ画像からトラッキングのずれを認識できるか確認する。
+そのために、端末のカメラを遮った状態で別地点に移動し、表示結果を確認する。
